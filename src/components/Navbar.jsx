@@ -27,6 +27,7 @@ export default function Navbar() {
   const scrollTo = (href) => {
     setMenuOpen(false)
     document.querySelector(href)?.scrollIntoView({ behavior: 'smooth' })
+    window.history.replaceState(null, '', window.location.pathname)
   }
 
   return (

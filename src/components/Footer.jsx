@@ -65,7 +65,10 @@ export default function Footer() {
             {['About', 'Skills', 'Experience', 'Projects', 'Education', 'Contact'].map(item => (
               <button
                 key={item}
-                onClick={() => document.querySelector(`#${item.toLowerCase()}`)?.scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => {
+                document.querySelector(`#${item.toLowerCase()}`)?.scrollIntoView({ behavior: 'smooth' })
+                window.history.replaceState(null, '', window.location.pathname)
+              }}
                 className="text-xs text-slate-400 dark:text-slate-500 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors"
               >
                 {item}
