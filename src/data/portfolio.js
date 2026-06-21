@@ -122,6 +122,19 @@ export const projects = [
     icon: '🤖',
     github: 'https://github.com/Shubhi498',
   },
+  {
+    id: 5,
+    name: 'ResumeForge',
+    subtitle: 'Premium AI Resume Builder',
+    description: 'A full-featured Resume Builder SaaS app with 4 premium templates, ATS score calculator, AI-powered summary generator, smart skill suggestions, drag-and-drop sections, PDF export, and dark mode. Built with React, Tailwind CSS, and Framer Motion.',
+    tags: ['React', 'Tailwind CSS', 'Framer Motion', 'AI', 'PDF Export', 'Vite'],
+    category: 'Full Stack',
+    color: 'from-violet-500 to-purple-600',
+    icon: '📄',
+    github: 'https://github.com/Shubhi498/resume-builder',
+    liveUrl: 'https://resume-builder-phi-self.vercel.app',
+    featured: true,
+  },
 ]
 
 export const education = [
