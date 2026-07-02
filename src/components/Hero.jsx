@@ -154,6 +154,7 @@ export default function Hero() {
                     src={personal.photo}
                     alt="Shubhi Pandey"
                     className="w-full h-full object-cover"
+                    style={{ objectPosition: 'center 15%' }}
                     onError={(e) => {
                       e.target.style.display = 'none'
                       e.target.nextSibling.style.display = 'flex'

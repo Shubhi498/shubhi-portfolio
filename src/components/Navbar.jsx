@@ -46,6 +46,7 @@ export default function Navbar() {
         <button onClick={() => scrollTo('#hero')} id="nav-logo" className="flex items-center gap-2">
           <div className="w-8 h-8 rounded-full bg-gradient-to-br from-cyan-400 to-blue-500 overflow-hidden flex-shrink-0">
             <img src="/profile.jpg" alt="Shubhi" className="w-full h-full object-cover"
+              style={{ objectPosition: 'center 15%' }}
               onError={e => { e.target.style.display='none'; e.target.parentElement.innerHTML='<span class="text-white text-sm font-bold flex items-center justify-center w-full h-full">SP</span>' }} />
           </div>
           <span className="font-bold text-slate-800 dark:text-white tracking-tight">

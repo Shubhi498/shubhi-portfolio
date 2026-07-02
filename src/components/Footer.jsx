@@ -15,6 +15,7 @@ export default function Footer() {
           <div className="flex items-center gap-2">
             <div className="w-9 h-9 rounded-full overflow-hidden border-2 border-cyan-400/30 flex-shrink-0">
               <img src="/profile.jpg" alt="Shubhi" className="w-full h-full object-cover"
+                style={{ objectPosition: 'center 15%' }}
                 onError={e => { e.target.style.display='none'; e.target.parentElement.style.background='linear-gradient(135deg,#22d3ee,#3b82f6)' }} />
             </div>
             <span className="font-bold text-slate-800 dark:text-white tracking-tight">
