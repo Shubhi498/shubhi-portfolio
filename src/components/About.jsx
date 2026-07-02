@@ -1,7 +1,7 @@
 // src/components/About.jsx
 import React from 'react'
 import { motion } from 'framer-motion'
-import { User, MapPin, Mail, Phone, GitBranch, Link2, Globe } from 'lucide-react'
+import { User, MapPin, Mail, GitBranch, Link2, Globe } from 'lucide-react'
 import { personal } from '../data/portfolio'
 
 const fadeUp = {
@@ -41,7 +41,6 @@ export default function About() {
               {[
                 { icon: MapPin, label: personal.location },
                 { icon: Mail, label: personal.email, href: `mailto:${personal.email}` },
-                { icon: Phone, label: personal.phone },
                 { icon: GitBranch, label: 'GitHub', href: personal.github },
                 { icon: Link2, label: 'LinkedIn Profile', href: personal.linkedin },
               ].map(({ icon: Icon, label, href }) => (

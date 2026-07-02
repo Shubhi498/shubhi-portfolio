@@ -1,7 +1,7 @@
 // src/components/Contact.jsx
 import React from 'react'
 import { motion } from 'framer-motion'
-import { Mail, Phone, MapPin, GitBranch, Link2, Send } from 'lucide-react'
+import { Mail, MapPin, GitBranch, Link2, Send } from 'lucide-react'
 import { personal } from '../data/portfolio'
 
 export default function Contact() {
@@ -31,7 +31,6 @@ export default function Contact() {
           >
             {[
               { icon: Mail, label: 'Email', value: personal.email, href: `mailto:${personal.email}`, color: 'from-cyan-500 to-blue-500' },
-              { icon: Phone, label: 'Phone', value: personal.phone, href: `tel:${personal.phone}`, color: 'from-green-500 to-emerald-500' },
               { icon: MapPin, label: 'Location', value: personal.location, color: 'from-orange-500 to-amber-500' },
               { icon: GitBranch, label: 'GitHub', value: 'github.com/Shubhi498', href: personal.github, color: 'from-slate-500 to-slate-600' },
               { icon: Link2, label: 'LinkedIn', value: 'Shubhi Pandey', href: personal.linkedin, color: 'from-blue-500 to-indigo-500' },

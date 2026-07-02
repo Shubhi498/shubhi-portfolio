@@ -5,7 +5,6 @@ export const personal = {
   title: 'Full Stack Developer',
   roles: ['Full Stack Developer', 'AI/ML Engineer', 'Deep Learning Enthusiast', 'Python Developer', 'Problem Solver'],
   email: 'pandeyshubhi498@gmail.com',
-  phone: '+91 93352-13432',
   location: 'Lucknow, Uttar Pradesh, India',
   linkedin: 'https://linkedin.com/in/shubhi-pandey-5a3bb5383',
   github: 'https://github.com/Shubhi498',
